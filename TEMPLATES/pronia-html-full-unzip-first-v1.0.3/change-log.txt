@@ -1,0 +1,8 @@
+Date:  26-12-2021
+
+Version: 1.0.3
+
+===================
+
+01. Some inconsistency issues have been fixed in the documentation
+
