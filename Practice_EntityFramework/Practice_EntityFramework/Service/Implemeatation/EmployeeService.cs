@@ -17,7 +17,7 @@ public class EmployeeService : IEmployee
             Salary = salary
         };
         await context.Employees.AddAsync(emp);
-        context.SaveChanges();
+         context.SaveChanges();
         //await context.SaveChangesAsync();
     }
 

@@ -10097,11 +10097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\WebUI\\WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\WebUI\\WebUI.csproj",
       "projectName": "WebUI",
-      "projectPath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\WebUI\\WebUI.csproj",
+      "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\WebUI\\WebUI.csproj",
       "packagesPath": "C:\\Users\\Izzet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\WebUI\\obj\\",
+      "outputPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Izzet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10118,8 +10118,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\DataAccess\\DataAccess.csproj"
             }
           }
         }

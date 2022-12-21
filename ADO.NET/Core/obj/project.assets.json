@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Izzet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Izzet\\AppData\\Roaming\\NuGet\\NuGet.Config",

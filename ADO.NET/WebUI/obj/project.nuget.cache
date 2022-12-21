@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LaXbADigJ4+yFMwk6gUTjmI8Vyzai6mU8GndLmVU0d3Zja8NUGi7zHLdIuQBrN018zimQzy+lGb0RGssJTBO6Q==",
+  "dgSpecHash": "EakQONJhvoygLWuMx/1pVrH21YkwPbIurlpHCLLwOzuBDENRuobtv8ayyVPFZ0vlzc7alaXTBJ3GByyWKv8AgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Izzet\\source\\repos\\ADO.NET\\WebUI\\WebUI.csproj",
+  "projectFilePath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\BB101-SQL\\ADO.NET\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Izzet\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Izzet\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
