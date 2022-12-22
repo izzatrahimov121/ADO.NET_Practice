@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebUI
 build_property.RootNamespace = WebUI
-build_property.ProjectDir = C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\WebUI\
+build_property.ProjectDir = C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\WebUI
+build_property.MSBuildProjectDirectory = C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Views/Home/Index.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Views/Shared/_Layout.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Views/_ViewImports.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Views/_ViewStart.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/Dashboard/Index.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Index.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hpcHBpbmdJdGVtXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Detail.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hpcHBpbmdJdGVtXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Created.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Created.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hpcHBpbmdJdGVtXENyZWF0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Index.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVJdGVtXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Izzet/OneDrive/Desktop/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Created.cshtml]
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Created.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVJdGVtXENyZWF0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
