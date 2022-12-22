@@ -1,6 +1,7 @@
 ﻿using DataAccess.Contexts;
 using Microsoft.AspNetCore.Mvc;
 using Core.Entities;
+using WebUI.ViewsModels;
 
 namespace WebUI.Controllers;
 
@@ -15,6 +16,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View(_context.SlideItems);
+        HomViewModel homeVM = new()
+        {
+            SlideItems = _context.SlideItems,
+            ShippingItems = _context.ShippingItems,
+        };
+
+		return View(homeVM);
     }
 }

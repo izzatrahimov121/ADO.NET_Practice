@@ -7,11 +7,75 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\" />
-    <Folder Include="Models\" />
+    <Compile Remove="Areas\**" />
+    <Compile Remove="Models\**" />
+    <Content Remove="Areas\**" />
+    <Content Remove="Models\**" />
+    <EmbeddedResource Remove="Areas\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Areas\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ShippingItemController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\ShippingItem\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ShippingItem\Detail.cshtml" />
+    <Content Include="Areas\Admin\Views\ShippingItem\Created.cshtml" />
+    <None Include="wwwroot\assets_admin\css\maps\style.css.map" />
+    <None Include="wwwroot\assets_admin\documentation\.DS_Store" />
+    <None Include="wwwroot\assets_admin\fonts\.DS_Store" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\Roboto-Black.woff2" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\assets_admin\fonts\Roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\assets_admin\images\.DS_Store" />
+    <None Include="wwwroot\assets_admin\images\auth\.DS_Store" />
+    <None Include="wwwroot\assets_admin\images\faces\.DS_Store" />
+    <None Include="wwwroot\assets_admin\images\logo-mini.svg" />
+    <None Include="wwwroot\assets_admin\images\logo.svg" />
+    <None Include="wwwroot\assets_admin\js\.DS_Store" />
+    <None Include="wwwroot\assets_admin\js\chart.js" />
+    <None Include="wwwroot\assets_admin\js\Chart.min.js" />
+    <None Include="wwwroot\assets_admin\js\dashboard.js" />
+    <None Include="wwwroot\assets_admin\js\data-table.js" />
+    <None Include="wwwroot\assets_admin\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\assets_admin\js\documentation.js" />
+    <None Include="wwwroot\assets_admin\js\file-upload.js" />
+    <None Include="wwwroot\assets_admin\js\hoverable-collapse.js" />
+    <None Include="wwwroot\assets_admin\js\jquery.cookie.js" />
+    <None Include="wwwroot\assets_admin\js\jquery.dataTables.js" />
+    <None Include="wwwroot\assets_admin\js\off-canvas.js" />
+    <None Include="wwwroot\assets_admin\js\tabs.js" />
+    <None Include="wwwroot\assets_admin\js\template.js" />
+    <None Include="wwwroot\assets_admin\pages\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\charts\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\forms\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\icons\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\samples\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\tables\.DS_Store" />
+    <None Include="wwwroot\assets_admin\pages\ui-features\.DS_Store" />
+    <None Include="wwwroot\assets_admin\vendors\.DS_Store" />
+    <None Include="wwwroot\assets_admin\vendors\base\bootstrap.min.js.map" />
+    <None Include="wwwroot\assets_admin\vendors\base\vendor.bundle.base.js" />
+    <None Include="wwwroot\assets_admin\vendors\chart.js\Chart.min.js" />
+    <None Include="wwwroot\assets_admin\vendors\datatables.net-bs4\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\assets_admin\vendors\datatables.net\jquery.dataTables.js" />
+    <None Include="wwwroot\assets_admin\vendors\mdi\css\materialdesignicons.min.css.map" />
+    <None Include="wwwroot\assets_admin\vendors\mdi\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\assets_admin\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,14 @@
+﻿@using Core.Entities;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model ShippingItem
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1><br />
+<h2>@Model.Title</h2><br />
+<h3>@Model.Description</h3><br />
+<img src="~/assets/images/website-images//@Model.Image" height="60px" /><br /><br />
+
+<a class="btn btn-info" asp-action="Index">Back</a>
