@@ -34,3 +34,15 @@ C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net
 C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\ragim\OneDrive\İş masası\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\bin\Debug\net6.0\Core.deps.json
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\bin\Debug\net6.0\Core.dll
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\bin\Debug\net6.0\Core.pdb
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.dll
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\Core.pdb
+C:\Users\Izzet\OneDrive\Desktop\ADO.NET_Practice\ADO.NET\Core\obj\Debug\net6.0\ref\Core.dll

@@ -1,0 +1,39 @@
+﻿@using Core.Entities;
+@using WebUI.Areas.Admin.ViewModels.Slider;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model SlideCreateVM
+@{
+	ViewData["Title"] = "Created";
+}
+
+
+<div class="card">
+	<div class="card-body">
+		<h4 class="card-title">Create Slide</h4>
+		<form class="forms-sample" method="post" enctype="multipart/form-data">
+
+			<div class="form-group">
+				<label >Photo</label>
+				<input type="file" asp-for="Photo" class="form-control"  placeholder="Image">
+				<span  class="text-danger" asp-validation-for="Photo"></span>
+			</div>
+
+			<div class="form-group">
+				<label>Offer</label>
+				<input asp-for="Offer" class="form-control"  placeholder="Title">
+				<span class="text-danger" asp-validation-for="Offer"></span>
+			</div>
+
+			<div class="form-group">
+				<label>Description</label>
+				<input asp-for="Description" class="form-control" placeholder="Description">
+				<span class="text-danger" asp-validation-for="Description"></span>
+			</div>
+			
+			<button type="submit" class="btn btn-primary mr-2">Submit</button>
+			<button class="btn btn-light">Cancel</button>
+
+		</form>
+	</div>
+</div>

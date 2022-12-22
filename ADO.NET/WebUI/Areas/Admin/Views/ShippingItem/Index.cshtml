@@ -14,7 +14,7 @@
 			<h3>Shipping Items</h3>
 			<a asp-action="Created">Create Items</a>
 			<h5></h5>
-			<h4 class="card-title">Striped Table</h4>
+
 			<div class="table-responsive">
 				<table class="table table-striped">
 					<thead>
@@ -25,12 +25,6 @@
 							<th>
 								Title
 							</th>
-							@*<th>
-							Description
-							</th>*@
-							@*<th>
-							Image name
-							</th>*@
 							<th>
 								Actions
 							</th>
@@ -46,12 +40,6 @@
 								<td>
 									@item.Title
 								</td>
-								@*<td>
-							@item.Description
-							</td>*@
-								@*<td>
-							@item.Image
-							</td>*@
 								<td>
 									<a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary">Detail</a>
 									<a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>

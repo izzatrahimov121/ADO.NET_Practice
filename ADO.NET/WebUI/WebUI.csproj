@@ -20,6 +20,8 @@
   <ItemGroup>
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
     <Compile Include="Areas\Admin\Controllers\ShippingItemController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SlideItemController.cs" />
+    <Compile Include="Areas\Admin\ViewModels\Slider\SlideCreateVM.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,8 @@
     <Content Include="Areas\Admin\Views\ShippingItem\Index.cshtml" />
     <Content Include="Areas\Admin\Views\ShippingItem\Detail.cshtml" />
     <Content Include="Areas\Admin\Views\ShippingItem\Created.cshtml" />
+    <Content Include="Areas\Admin\Views\SlideItem\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\SlideItem\Created.cshtml" />
     <None Include="wwwroot\assets_admin\css\maps\style.css.map" />
     <None Include="wwwroot\assets_admin\documentation\.DS_Store" />
     <None Include="wwwroot\assets_admin\fonts\.DS_Store" />
