@@ -10,7 +10,6 @@ public static class Extension
 	{
 		return file.ContentType.Contains(fileFormat);
 	}
-
 	public static async Task<string> CopyFileAsync(this IFormFile file, string wwwroot, params string[] folders)
 	{
 		try
@@ -26,7 +25,6 @@ public static class Extension
 				await file.CopyToAsync(stream);
 			}
 			return fileName;
-
 		}
 		catch (Exception)
 		{
