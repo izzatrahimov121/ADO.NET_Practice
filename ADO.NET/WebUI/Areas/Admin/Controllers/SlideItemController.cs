@@ -22,7 +22,7 @@ public class SlideItemController : Controller
 	}
 
 
-
+	#region Cteate Slide 
 	public IActionResult Created()
 	{
 		return View();
@@ -58,7 +58,6 @@ public class SlideItemController : Controller
 			throw;
 		}
 
-
 		SlideItem slide = new()
 		{
 			Offer = item.Offer,
@@ -69,6 +68,7 @@ public class SlideItemController : Controller
 		await _context.SaveChangesAsync();
 		return RedirectToAction(nameof(Index));
 	}
+	#endregion
 
 
 }

@@ -7,10 +7,10 @@ public class ShippingItem
 	
 	public int Id { get; set; }
 
-	[Required, MaxLength(50)]
+	[Required(ErrorMessage ="Boş buraxma"), MaxLength(50,ErrorMessage ="Uzunluq 50-dən çox olmamalıdır")]
 	public string? Title { get; set; }
 
-	[Required]
+	[Required(ErrorMessage ="Boş buraxma")]
 	public string? Image { get; set; }
 
 	public string? Description { get; set; }

@@ -37,6 +37,7 @@
     <Content Include="Areas\Admin\Views\SlideItem\Index.cshtml" />
     <Content Include="Areas\Admin\Views\SlideItem\Created.cshtml" />
     <Content Include="Areas\Admin\Views\ShippingItem\Update.cshtml" />
+    <Content Include="Areas\Admin\Views\ShippingItem\Delete.cshtml" />
     <None Include="wwwroot\assets_admin\css\maps\style.css.map" />
     <None Include="wwwroot\assets_admin\documentation\.DS_Store" />
     <None Include="wwwroot\assets_admin\fonts\.DS_Store" />

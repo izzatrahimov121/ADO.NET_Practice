@@ -19,11 +19,12 @@ public class ShippingItemController : Controller
 		return View(_context.ShippingItems);
 	}
 
+
 	#region Detail Shipping
 	public async Task<IActionResult> Detail(int id)
 	{
 		var model = await _context.ShippingItems.FindAsync(id);
-		if (model != null) { return NotFound(); }
+		if (model == null) { return NotFound(); }
 		return View(model);
 	}
 	#endregion
@@ -51,17 +52,45 @@ public class ShippingItemController : Controller
 	public async Task<IActionResult> Update(int id)
 	{
 		var model = await _context.ShippingItems.FindAsync(id);
-		if (model != null) { return NotFound(); }
+		if (model == null) { return NotFound(); }
 		return View(model);
+	}
+
+	[HttpPost]
+	public async Task<IActionResult> Update(int id, ShippingItem item)
+	{
+		if (id != item.Id) { return BadRequest(); }
+		if (!ModelState.IsValid) { return View(item); }
+		var model = await _context.ShippingItems.FindAsync(id);
+		if (model == null) { return NotFound(); }
+		_context.ShippingItems.Update(item);
+		await _context.SaveChangesAsync();
+		return RedirectToAction(nameof(Index));
 	}
 	#endregion
 
+		//model.Title = item.Title;
+		//model.Description = item.Description;
+		//model.Image = item.Image;
 
 	#region Delete Shipping
 	public async Task<IActionResult> Delete(int id)
 	{
 		var model = await _context.ShippingItems.FindAsync(id);
-		return View(_context.ShippingItems);
+		if (model == null) { return NotFound(); }
+		return View(model);
+	}
+
+	[HttpPost]
+	[ValidateAntiForgeryToken]
+	[ActionName("Delete")]
+	public async Task<IActionResult> DeletePost(int id)
+	{
+		var model = await _context.ShippingItems.FindAsync(id);
+		if (model == null) { return NotFound(); }
+		_context.ShippingItems.Remove(model);
+		await _context.SaveChangesAsync();
+		return RedirectToAction(nameof(Index));
 	}
 	#endregion
 

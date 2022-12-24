@@ -2,14 +2,20 @@
 
 public static class Extension
 {
+
+
 	public static bool CheckFileSize(this IFormFile file, int Kbyte)
 	{
 		return file.Length / 1024 <= Kbyte;
 	}
+
+
 	public static bool CheckFileFormat(this IFormFile file, string fileFormat)
 	{
 		return file.ContentType.Contains(fileFormat);
 	}
+
+
 	public static async Task<string> CopyFileAsync(this IFormFile file, string wwwroot, params string[] folders)
 	{
 		try

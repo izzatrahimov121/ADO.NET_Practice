@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj": {
+    "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Izzet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\obj\\",
+        "projectPath": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ragim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Izzet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ragim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,17 +69,21 @@
         }
       }
     },
-    "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Izzet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ragim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Izzet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ragim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Izzet\\OneDrive\\Desktop\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj"
+              "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ragim\\OneDrive\\İş masası\\ADO.NET_Practice\\ADO.NET\\Core\\Core.csproj"
               }
             }
           }
