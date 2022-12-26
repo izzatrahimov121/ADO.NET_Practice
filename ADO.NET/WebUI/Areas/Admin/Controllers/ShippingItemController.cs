@@ -1,5 +1,6 @@
 ﻿using Core.Entities;
 using DataAccess.Contexts;
+using DataAccess.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Areas.Admin.Controllers;
@@ -7,23 +8,23 @@ namespace WebUI.Areas.Admin.Controllers;
 [Area("Admin")]
 public class ShippingItemController : Controller
 {
-	private readonly AppDbContext _context;
-
-	public ShippingItemController(AppDbContext context)
+	//private readonly AppDbContext _context;
+	private IShippingItemRepository _repository;
+	public ShippingItemController(IShippingItemRepository repository)
 	{
-		_context = context;
+		_repository = repository;
 	}
 
-	public IActionResult Index()
+	public async Task<IActionResult> Index()
 	{
-		return View(_context.ShippingItems);
+		return View(await _repository.GetAllAsync());
 	}
 
 
 	#region Detail Shipping
 	public async Task<IActionResult> Detail(int id)
 	{
-		var model = await _context.ShippingItems.FindAsync(id);
+		var model = await _repository.GetAsync(id);
 		if (model == null) { return NotFound(); }
 		return View(model);
 	}
@@ -41,8 +42,8 @@ public class ShippingItemController : Controller
 	public async Task<IActionResult> Created(ShippingItem item)
 	{
 		if (!ModelState.IsValid) { return View(item); }
-		await _context.ShippingItems.AddAsync(item);
-		await _context.SaveChangesAsync();
+		await _repository.CreateAsync(item);
+		await _repository.SaveAsync();
 		return RedirectToAction(nameof(Index));
 	}
 	#endregion
@@ -51,7 +52,7 @@ public class ShippingItemController : Controller
 	#region Update Shipping
 	public async Task<IActionResult> Update(int id)
 	{
-		var model = await _context.ShippingItems.FindAsync(id);
+		var model = await _repository.GetAsync(id);
 		if (model == null) { return NotFound(); }
 		return View(model);
 	}
@@ -61,14 +62,15 @@ public class ShippingItemController : Controller
 	{
 		if (id != item.Id) { return BadRequest(); }
 		if (!ModelState.IsValid) { return View(item); }
-		var model = await _context.ShippingItems.FindAsync(id);
+		var model = await _repository.GetAsync(id);
 		if (model == null) { return NotFound(); }
 		model.Title = item.Title;
 		model.Description = item.Description;
 		model.Image = item.Image;
+		_repository.Update(model);
 		//_context.ShippingItems.Update(item);
-		_context.ShippingItems.UpdateRange(model);
-		await _context.SaveChangesAsync();
+		//_context.ShippingItems.UpdateRange(model);
+		await _repository.SaveAsync();
 		return RedirectToAction(nameof(Index));
 	}
 	#endregion
@@ -77,7 +79,7 @@ public class ShippingItemController : Controller
 	#region Delete Shipping
 	public async Task<IActionResult> Delete(int id)
 	{
-		var model = await _context.ShippingItems.FindAsync(id);
+		var model = await _repository.GetAsync(id);
 		if (model == null) { return NotFound(); }
 		return View(model);
 	}
@@ -87,13 +89,11 @@ public class ShippingItemController : Controller
 	[ActionName("Delete")]
 	public async Task<IActionResult> DeletePost(int id)
 	{
-		var model = await _context.ShippingItems.FindAsync(id);
+		var model = await _repository.GetAsync(id);
 		if (model == null) { return NotFound(); }
-		_context.ShippingItems.Remove(model);
-		await _context.SaveChangesAsync();
+		_repository.Delete(model);
+		await _repository.SaveAsync();
 		return RedirectToAction(nameof(Index));
 	}
 	#endregion
-
-
 }

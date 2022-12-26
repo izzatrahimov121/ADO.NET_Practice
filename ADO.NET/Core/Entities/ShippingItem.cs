@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Core.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace Core.Entities;
 
-public class ShippingItem
+public class ShippingItem:IEntity
 {
 	
 	public int Id { get; set; }

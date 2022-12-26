@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Core.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
 namespace Core.Entities;
 
-public class SlideItem
+public class SlideItem:IEntity
 {
 	public int Id { get; set; }
 	[Required,MaxLength(200)]
