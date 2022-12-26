@@ -1,0 +1,15 @@
+﻿@using Core.Entities;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model SlideItem
+@{
+	ViewData["Title"] = "Detail";
+}
+
+<div class="col-4">
+	<h1>Detail</h1><br />
+	<h2>@Model.Offer</h2><br />
+	<h3>@Model.Description</h3><br />
+	<img src="~/assets/images/website-images//@Model.Photo" height="60px" /><br /><br />
+	<a class="btn btn-info" asp-action="Index">Back</a>
+</div>

@@ -71,3 +71,15 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/ShippingItem/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hpcHBpbmdJdGVtXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVJdGVtXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVJdGVtXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ragim/OneDrive/İş masası/ADO.NET_Practice/ADO.NET/WebUI/Areas/Admin/Views/SlideItem/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVJdGVtXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

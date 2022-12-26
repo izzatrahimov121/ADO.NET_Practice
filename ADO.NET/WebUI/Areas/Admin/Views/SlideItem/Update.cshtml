@@ -1,0 +1,60 @@
+﻿@using Core.Entities;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model SlideItem
+@{
+    ViewData["Title"] = "Update";
+}
+
+<div class="col-6">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Update Shippind</h4>
+            <form class="forms-sample formupdate" method="post">
+
+                <div class="form-group">
+                    <label>Image</label>
+                    <img src="~/assets/images/website-images/@Model.Photo" />
+                    <input asp-for="Photo" class="form-control" placeholder="Image">
+                    <span class="text-danger" asp-validation-for="Photo"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Offer</label>
+                    <input asp-for="Offer" class="form-control" placeholder="Offer">
+                    <span class="text-danger" asp-validation-for="Offer"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Description">
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+
+                <a class="btn btn-primary mr-2 updatebtn">Submit</a>
+                <button class="btn btn-light">Cancel</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+
+	$(function ($) {
+		$('.updatebtn').on('click', function () {
+			Swal.fire({
+				title: 'Are you sure?',
+				icon: 'question',
+				showCancelButton: true,
+				confirmButtonColor: '#3085d6',
+				cancelButtonColor: '#d33',
+				confirmButtonText: 'Yes, Update it!'
+			}).then((result) => {
+				if (result.isConfirmed) {
+					$(".formupdate").submit();
+				}
+			});
+		});
+	});
+</script>

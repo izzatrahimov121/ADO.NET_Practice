@@ -26,6 +26,7 @@ public static class Extension
 			{
 				resultPath = Path.Combine(resultPath, folder);
 			}
+			resultPath = Path.Combine(resultPath, fileName);
 			using (FileStream stream = new FileStream(resultPath, FileMode.Create))
 			{
 				await file.CopyToAsync(stream);

@@ -63,15 +63,16 @@ public class ShippingItemController : Controller
 		if (!ModelState.IsValid) { return View(item); }
 		var model = await _context.ShippingItems.FindAsync(id);
 		if (model == null) { return NotFound(); }
-		_context.ShippingItems.Update(item);
+		model.Title = item.Title;
+		model.Description = item.Description;
+		model.Image = item.Image;
+		//_context.ShippingItems.Update(item);
+		_context.ShippingItems.UpdateRange(model);
 		await _context.SaveChangesAsync();
 		return RedirectToAction(nameof(Index));
 	}
 	#endregion
 
-		//model.Title = item.Title;
-		//model.Description = item.Description;
-		//model.Image = item.Image;
 
 	#region Delete Shipping
 	public async Task<IActionResult> Delete(int id)
